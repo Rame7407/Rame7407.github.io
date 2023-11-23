@@ -110,7 +110,7 @@ $(document).ready(function(){
               phone: {
                 required:true
               },
-              select:{
+              services:{
                 required:true
 
               }
@@ -123,7 +123,7 @@ $(document).ready(function(){
               phone:{
                 required:"Пожалуйста, введите свой телефон"
               },
-              select:{
+              services:{
                 required: "Пожалуйста, выберите услугу"
               }
           }
