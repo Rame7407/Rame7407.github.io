@@ -9,7 +9,6 @@ console.log( bbox.height ) ; */
 const swiper = new Swiper('.about__slider', {
   // Optional parameters
   loop: true,
- /*  loopFillGroupWithBlank: true, */
   spaceBetween: 30,
   autoplay: {
     reverseDirection:true,
@@ -18,13 +17,11 @@ const swiper = new Swiper('.about__slider', {
     disableOnInteraction: false
   },
   speed:3000,
-  //slidesPerGroup
   slidesPerView: 2.5,
 });
 const swiper1 = new Swiper('.about__slider1', {
   // Optional parameters
   loop: true,
- /*  loopFillGroupWithBlank: true, */
   spaceBetween: 30,
   autoplay: {
     reverseDirection:true,
@@ -33,13 +30,11 @@ const swiper1 = new Swiper('.about__slider1', {
     disableOnInteraction: false
   },
   speed:2650,
-  //slidesPerGroup
   slidesPerView: 2,
 });
 const swiper2 = new Swiper('.about__slider2', {
   // Optional parameters
   loop: true,
- /*  loopFillGroupWithBlank: true, */
   spaceBetween: 30,
   autoplay: {
     reverseDirection:true,
@@ -48,13 +43,11 @@ const swiper2 = new Swiper('.about__slider2', {
     disableOnInteraction: false
   },
   speed:3000,
-  //slidesPerGroup
   slidesPerView: 1.53,
 });
 const caseSwiper = new Swiper('.case__slider', {
   // Optional parameters
   loop: true,
- /*  loopFillGroupWithBlank: true, */
   spaceBetween: 50,
   autoplay: {
     delay: 5000,
@@ -62,11 +55,9 @@ const caseSwiper = new Swiper('.case__slider', {
     disableOnInteraction: false
   },
   speed:2000,
-  //slidesPerGroup
   slidesPerView: 3.29,
   scrollbar: {
     el: '.swiper-scrollbar',
-   /*  dragClass: 'case__slider-scrollbar-drag', */
     dragSize:200,
     snapOnRelease: true
   },
