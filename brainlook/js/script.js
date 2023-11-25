@@ -55,7 +55,7 @@ const caseSwiper = new Swiper('.case__slider', {
   // Optional parameters
   loop: true,
  /*  loopFillGroupWithBlank: true, */
-  spaceBetween: 70,
+  spaceBetween: 50,
   autoplay: {
     delay: 5000,
     pauseOnMouseEnter:true,
